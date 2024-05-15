@@ -3,8 +3,23 @@
   padding: 0;
 }
 
+*,
+:after,
+:before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+}
+
+svg {
+  width: 32;
+  height: 32;
+  fill: none;
+}
+
 body {
   color: 272727;
+  line-height: inherit;
+  font-family: ArminGrotesk, ArminGroteskBlack, ArminGroteskSemiBold, sans-serif;
 }
 
 ul,
@@ -19,6 +34,7 @@ a {
 
 #header_wrap {
   background-color: rgb(248, 241, 217);
+  color: #381fd1;
 }
 
 .header {
@@ -76,28 +92,50 @@ a {
   width: 1320px;
   display: flex;
 }
-
+.Search_Library {
+  margin-bottom: 14px;
+  font-weight: 500;
+}
 .nav_wrap {
   background-color: rgb(13, 105, 105);
   width: 280px;
+  padding-top: 64px;
+  padding: 16px 0px 16px 20px;
+  font-style: none;
 }
 
 .container {
   width: 900px;
   background-color: yellow;
+  padding-top: 64px;
+}
+h2 {
+  font-size: 3rem;
+  color: #10284b;
+  font-weight: 900;
 }
 
-.h1_box {
+h4 {
+  font-size: 1.5rem;
+  color: #10284b;
+}
+.h2_box {
   display: flex;
 }
 .grid_box {
   width: 260px;
+}
+
+.grid_box_font {
+  font-size: 24px;
 }
 .grid_wrap {
   display: grid;
   grid-template-columns: repeat(auto-fill, 260px);
   row-gap: 30px;
   column-gap: 30px;
+  margin-top: 24px;
+  margin-bottom: 64px;
 }
 
 .box1 {
@@ -119,8 +157,9 @@ a {
   background-color: rgb(67, 221, 67);
 }
 .grid_wrap2 {
+  column-gap: 32px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 267px);
-  row-gap: 30px;
-  column-gap: 30px;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, 261px);
+  row-gap: 32px;
 }
