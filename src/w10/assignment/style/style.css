@@ -174,6 +174,7 @@ h4 {
 }
 .h2_box {
   display: flex;
+  font-style: bold;
 }
 .grid_box {
   width: 260px;
@@ -186,8 +187,8 @@ h4 {
 .grid_wrap {
   display: grid;
   grid-template-columns: repeat(auto-fill, 260px);
-  row-gap: 30px;
-  column-gap: 30px;
+  row-gap: 40px;
+  column-gap: 50px;
   margin-top: 24px;
   margin-bottom: 64px;
 }
@@ -209,7 +210,6 @@ h4 {
   padding: 24px 24px 40px;
 }
 .box5 {
-  border: 1px solid;
   border-radius: 10px;
   padding: 24px 24px 40px;
 }
@@ -235,6 +235,9 @@ h4 {
 .h1_box {
   display: flex;
   justify-content: space-between;
+}
+.h1_box > h2 {
+  font-style: bold;
 }
 .grid_box img {
   border: 1px solid #777;
