@@ -145,7 +145,7 @@ p {
   font-style: none;
 }
 .util_box {
-  background-color: #becff1;
+  background-color: #f3f2fc;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 10px;
@@ -177,6 +177,7 @@ h4 {
 }
 .grid_box {
   width: 260px;
+  border: solid #acacaf;
 }
 
 .grid_box_font {
@@ -192,22 +193,18 @@ h4 {
 }
 
 .box1 {
-  border: 1px solid;
   border-radius: 10px;
   padding: 24px 24px 40px;
 }
 .box2 {
-  border: 1px solid;
   border-radius: 10px;
   padding: 24px 24px 40px;
 }
 .box3 {
-  border: 1px solid;
   border-radius: 10px;
   padding: 24px 24px 40px;
 }
 .box4 {
-  border: 1px solid;
   border-radius: 10px;
   padding: 24px 24px 40px;
 }
@@ -217,7 +214,6 @@ h4 {
   padding: 24px 24px 40px;
 }
 .box6 {
-  border: 1px solid;
   border-radius: 10px;
   padding: 24px 24px 40px;
 }
@@ -277,41 +273,45 @@ h4 {
 }
 
 .grid_box3 {
-  font-size: 20px;
   font-weight: bold;
   color: white;
   width: 300px;
+  font-size: 16px;
+  padding: 0px 0px 8px;
 }
 .grid_wrap3 {
   text-align: left;
-  width: 1320px;
+  width: 1200px;
   margin: 0 auto;
   display: grid;
   row-gap: 70px;
   column-gap: 30px;
-  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
 }
 .footer_social {
-  width: 1320px;
+  width: 1200px;
   margin: 50px auto;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .social_wrap {
   display: flex;
+  margin-right: 300px;
 }
 .social_wrap li {
   display: flex;
-  width: 80px;
+  width: 32px;
+  height: 32px;
+  padding-right: 45px;
 }
 .soscial_wrap > li > img {
   display: block;
-  width: 100%;
+  width: 32px;
 }
 .footer_social > p {
-  font-size: 20px;
   font-weight: bold;
   margin-right: 100px;
-  color: antiquewhite;
+  color: rgb(254, 219, 99);
 }
