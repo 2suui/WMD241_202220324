@@ -10,11 +10,16 @@
   box-sizing: border-box;
 }
 
-svg {
+/* img {
   width: 32;
   height: 32;
   fill: none;
-}
+} */
+/* --박스별이미지어케--
+.grid_box__img {
+  border: 1px solid;
+  border-radius: 10px;
+} */
 
 body {
   color: 272727;
@@ -31,6 +36,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
 
 #header_wrap {
   background-color: rgb(248, 241, 217);
@@ -43,11 +56,11 @@ a {
 }
 
 .header {
+  padding-top: 20px;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 64px;
 }
 
@@ -57,6 +70,10 @@ a {
   display: flex;
 }
 
+.gnb_wrap {
+  font-weight: bold;
+  align-items: center;
+}
 .gnb_left {
   margin-right: 100px;
 }
@@ -65,14 +82,24 @@ a {
   width: 140px;
 }
 
-.gnb_right > li > a {
-  display: block;
+.gnb_right > li:nth-child(1) > a:hover {
+  border-radius: 10px;
+  border: 3px solid blue;
+  padding: 5px 20px;
 }
-
+/* .gnb_right{
+  padding-bottom: 20px;
+} */
 .gnb_right > li {
-  width: 200px;
+  font-weight: bold;
+  width: 210px;
 }
-
+.gnb_right > li:nth-child(2) {
+  background-color: #381fd1;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 0px;
+}
 .gnb_left > li > a:hover {
   border-radius: 10px;
   border: 3px solid blue;
@@ -80,7 +107,6 @@ a {
 }
 
 #content_wrap {
-  background-color: aqua;
   overflow: hidden;
 }
 
@@ -97,16 +123,27 @@ a {
   font-weight: 500;
 }
 .nav_wrap {
-  background-color: rgb(13, 105, 105);
   width: 280px;
   padding-top: 64px;
   padding: 16px 0px 16px 20px;
   font-style: none;
 }
+.util_box {
+  background-color: #becff1;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.util_link {
+  text-align: center;
+  background-color: #381fd1;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
 
 .container {
   width: 900px;
-  background-color: yellow;
   padding-top: 64px;
 }
 h2 {
@@ -139,22 +176,34 @@ h4 {
 }
 
 .box1 {
-  background-color: red;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 24px 24px 40px;
 }
 .box2 {
-  background-color: blue;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 24px 24px 40px;
 }
 .box3 {
-  background-color: rgb(154, 154, 231);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 24px 24px 40px;
 }
 .box4 {
-  background-color: green;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 24px 24px 40px;
 }
 .box5 {
-  background-color: rgb(165, 207, 165);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 24px 24px 40px;
 }
 .box6 {
-  background-color: rgb(67, 221, 67);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 24px 24px 40px;
 }
 .grid_wrap2 {
   column-gap: 32px;
@@ -162,4 +211,83 @@ h4 {
   grid-auto-rows: 1fr;
   grid-template-columns: repeat(auto-fill, 261px);
   row-gap: 32px;
+  margin-bottom: 100px;
+}
+.grid_box2 {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 280px;
+  height: 350px;
+}
+.h1_box {
+  display: flex;
+  justify-content: space-between;
+}
+.grid_box img {
+  border: 1px solid #777;
+  border-radius: 10px;
+  padding: 5px 2px;
+}
+#footer_wrap {
+  padding: 100px 0px;
+  background-color: rgb(16, 40, 75);
+  color: #f6f6eb;
+  justify-content: center;
+  font-size: 16px;
+}
+.footer__social.grid {
+  justify-content: space-between;
+}
+.card_box1 {
+  background-size: 280px;
+  background-image: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845742/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png);
+}
+.card_box2 {
+  background-size: 280px;
+  background-image: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845742/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png);
+}
+.card_box3 {
+  background-size: 280px;
+  background-image: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845742/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png);
+}
+
+.grid_box3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 300px;
+}
+.grid_wrap3 {
+  text-align: left;
+  width: 1320px;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 70px;
+  column-gap: 30px;
+  grid-template-columns: repeat(auto-fill, 300px);
+}
+.footer_social {
+  width: 1320px;
+  margin: 50px auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.social_wrap {
+  display: flex;
+}
+.social_wrap li {
+  display: flex;
+  width: 80px;
+}
+.soscial_wrap > li > img {
+  display: block;
+  width: 100%;
+}
+.footer_social > p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 100px;
+  color: antiquewhite;
 }
