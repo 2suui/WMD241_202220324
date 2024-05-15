@@ -15,7 +15,7 @@
   height: 32;
   fill: none;
 } */
-/* --박스별이미지어케--
+/* 
 .grid_box__img {
   border: 1px solid;
   border-radius: 10px;
@@ -30,6 +30,15 @@ body {
 ul,
 ol {
   list-style: none;
+}
+.Search_Library {
+  padding-top: 64px;
+}
+.nav2 > li {
+  height: 16px;
+
+  padding: 16px;
+  margin-bottom: 24px;
 }
 
 a {
@@ -241,17 +250,23 @@ h4 {
 }
 .card_box1 {
   background-size: cover;
+  overflow: hidden;
   background-image: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845742/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png);
+  padding: 32px;
 }
 .card_box2 {
   background-size: cover;
+  overflow: hidden;
   background: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845743/library_collection_making_accessible_color_combos_42c8d90a99.png)
     0px 50px no-repeat;
+  padding: 32px;
 }
 .card_box3 {
   background-size: cover;
+  overflow: hidden;
   background: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845743/library_collection_Inclusive_Social_Media_b9669e6d39.png)
     50px 0px no-repeat;
+  padding: 32px;
 }
 
 .grid_box3 {
