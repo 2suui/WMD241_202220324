@@ -240,16 +240,18 @@ h4 {
   justify-content: space-between;
 }
 .card_box1 {
-  background-size: 280px;
+  background-size: cover;
   background-image: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845742/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png);
 }
 .card_box2 {
-  background-size: 280px;
-  background-image: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845742/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png);
+  background-size: cover;
+  background: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845743/library_collection_making_accessible_color_combos_42c8d90a99.png)
+    0px 50px no-repeat;
 }
 .card_box3 {
-  background-size: 280px;
-  background-image: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845742/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png);
+  background-size: cover;
+  background: url(https://res.cloudinary.com/stark-lab/image/upload/v1653845743/library_collection_Inclusive_Social_Media_b9669e6d39.png)
+    50px 0px no-repeat;
 }
 
 .grid_box3 {
